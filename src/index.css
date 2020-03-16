@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+th {
+    cursor: pointer;
+    user-select: none;
+}
+
+i {
+    margin: 0 3px;
+    float: right;
+}
+
+button {
+    background: transparent;
+    border: 0;
+}
